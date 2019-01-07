@@ -3,17 +3,19 @@ html {
   color: #fff;
 }
 
-img {
-  max-height: 500px;
+.text {
+  background-color: #97a49b;
 }
 
 @media only screen and (min-width: 60em) {
 
-  img {
-    position: absolute;
-  }
-  .text {
+  .banner {
+    max-height: 500px;
     position: relative;
-    bottom: 15em;
+  }
+
+  .text {
+    position: absolute;
+    bottom: 0;
   }
 }
